@@ -1,0 +1,86 @@
+<html>
+<head>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #FFFAF9;
+      font-family: 'Georgia', serif;
+      padding: 30px;
+      color: #555;
+    }
+    h2 {
+      color: #FF85A1;
+      font-size: 24px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #FFB6C1;
+    }
+    .layout-foto {
+      vertical-align: top;
+      width: 180px;
+      padding-right: 30px;
+    }
+    .foto-profile {
+      width: 160px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 4px solid #FFB6C1;
+    }
+    .data-table { border-collapse: collapse; width: 100%; }
+    .data-table td { padding: 8px 12px; font-size: 14px; vertical-align: top; }
+    .data-table td:first-child { font-weight: bold; color: #752575; width: 160px; }
+    .data-table tr:nth-child(odd) { background-color: #cde8f2; }
+    .foto-grid {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    .foto-item {
+      width: 130px;
+      height: 130px;
+      border-radius: 10px;
+      border: 3px solid #FFB6C1;
+      overflow: hidden;
+    }
+    .foto-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .section-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #FF85A1;
+      margin: 25px 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>👤 Data Pribadi</h2>
+
+  <table>
+    <tr>
+      <td class="layout-foto">
+        <img class="foto-profile" src="foto/kiki foto.jpeg" alt="Foto Profil">
+      </td>
+      <td>
+        <table class="data-table">
+          <tr><td>Nama Lengkap</td><td>: Ananda Nayla Rizkiah</td></tr>
+          <tr><td>NIM</td><td>: 41824010069</td></tr>
+          <tr><td>Program Studi</td><td>: Sistem Informasi</td></tr>
+          <tr><td>Fakultas</td><td>: Ilmu Komputer</td></tr>
+          <tr><td>Universitas</td><td>: Universitas Mercu Buana</td></tr>
+          <tr><td>Semester</td><td>: 4</td></tr>
+          <tr><td>Tempat, Tgl Lahir</td><td>: Tangerang, 05 September 2005</td></tr>
+          <tr><td>Alamat</td><td>: Tangerang Banten</td></tr>
+          <tr><td>Hobi</td><td>: Traveling</td></tr>
+          <tr><td>Email</td><td>: kikinaylar@gmail.com</td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
